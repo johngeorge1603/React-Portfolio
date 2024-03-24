@@ -1,0 +1,87 @@
+.clr {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(92, 179, 209);
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+
+    h1{
+        color: rgb(92, 179, 209);
+        background-color:#181414;
+        width: 180px;
+        height: 100%;
+        justify-content: center;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+
+    .getInTouch{
+        width: 50%;
+
+        h1{
+            font-size: 80px;
+            color: rgb(92, 179, 209);
+        }
+
+        p{
+            color: grey;   
+        }
+
+        .social {
+            display: flex;
+            gap: 20px;
+            margin-top: 4%;
+
+            a:hover {
+                color: rgb(92, 179, 209);
+            }
+        }
+    }
+
+    .form{
+
+        margin-top: 5%;
+
+        input, textarea{
+            width: 100%;
+            height: 30px;
+            background-color: rgb(178, 178, 178);
+            border: none;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            padding: 3px;
+        }
+
+        textarea{
+            height: 100px;
+        }
+        
+        button{
+            background-color: rgb(92, 179, 209);
+            padding: 10px 0px 10px 0px;
+            width: 130px;
+            border-radius: 15px;
+            border: none;
+            font-weight: bold;
+            color: white;
+            font-size: 14px;
+        }
+        button:hover{
+            background-color: white;
+            cursor: pointer;
+            color: rgb(92, 179, 209);
+            transition: 0.4s;
+        }
+    }
+}

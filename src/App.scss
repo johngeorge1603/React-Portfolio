@@ -1,0 +1,46 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-color: #181414;
+    color: lightgrey;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#Home{
+    position: relative;
+}
+
+
+
+#video-background {
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}

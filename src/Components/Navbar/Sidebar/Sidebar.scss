@@ -1,0 +1,66 @@
+.sidebar{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+        .bg{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 200px;
+        background-color: rgba($color: #000000, $alpha: 0.2);
+    
+            .links{
+                position: absolute;
+                color: white;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 30px;
+                padding-left: 15%;
+    
+                a{
+                    font-size: 26px;
+                    color: white;
+                    position: relative;
+                }
+
+                a:after {
+                    content: '';
+                    position: absolute;
+                    left: 0%;
+                    bottom: -2px;
+                    width: 0px;
+                    height: 3px;
+                    background: rgb(92, 179, 209);
+                    transition: all 0.45s;
+                  }
+                
+                  a:hover:after {
+                    width: 60%;
+                    left: 0;
+                  }
+
+                
+            }
+        }
+    
+        .toggle{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            top: 25px;
+            left: 25px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: aliceblue;
+        }
+    }

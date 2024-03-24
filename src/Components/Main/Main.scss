@@ -1,0 +1,59 @@
+.main {
+    height: calc(100vh - 100px);
+
+
+.text-container {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    justify-content: center;
+    gap: 40px;
+
+    h3 {
+        color: rgb(141, 168, 170);
+        font-size: 30px;
+        letter-spacing: 8px;
+    }
+
+    .title {
+        color: white;
+        font-size: 60px;
+        
+        span{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            background-color: rgb(141, 168, 170);
+            color: black;
+            justify-content: end;
+            padding-right: 1%;
+
+            h2{
+                color: rgb(95, 95, 95);
+            }
+        }
+    }
+
+    a{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-top: 6%;
+
+    }
+}
+
+.slidingText {
+    position: absolute;
+    font-size: 50vh;
+    bottom: 25%;
+    white-space: nowrap;
+    color: rgba($color: #ffffff, $alpha: 0.1);
+    z-index: -1;
+    width: 100%;
+}
+
+}
