@@ -84,13 +84,13 @@ const array=[
         const y = useTransform(scrollYProgress, [0,1], [-600, 600])
 
         return (
-          <section id='PortfolioPage' className="portfolio-item">
+          <section id={item.id} className="portfolio-item">
             <div className="container">
-                <img src={item.img} alt=""  ref={ref}/>
+                <img src={item.img} alt=""  ref={ref} width={'50%'}/>
                 <motion.div className="text-container" style={{y}}>
                     <h2>{item.title}</h2>
                     <p>{item.des}</p>
-                    <button> <a href={item.link} target='_blank'>View Project ></a></button>
+                    <button> <a href={item.link} target='_blank'>View Project <i class="fa-solid fa-caret-right fa-lg"></i></a></button>
                     <div style={{display:'flex' , flexDirection:'row', gap:'30px', justifyContent:'end'}}>
                     <a href="#HomePage"><i class="fa-solid fa-house fa-fade"></i></a>
                     <a href="#ContactPage"><i class="fa-solid fa-at fa-fade"></i></a>
