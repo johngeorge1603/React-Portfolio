@@ -5,6 +5,14 @@ import { useRef } from 'react';
 const array=[
 
         {
+            id:10,
+            title: "E-Commerce Website",
+            img: "https://i.postimg.cc/KYxb1MM3/image-2024-04-18-180324534.png",
+            des:"Dive into a world of essentials and luxuries, where browsing meets simplicity. With features like Wishlist and Cart seamlessly integrated, enjoy the ease of adding favorites and managing purchases. Elevate your shopping experience with React's efficiency and our intuitive design.",
+            link: "https://e-commerce-store-woad-ten.vercel.app"
+
+        },
+        {
             id:9,
             title: "Media Player",
             img: "https://i.postimg.cc/rmy8CRWB/image-2024-03-24-154821253.png",
