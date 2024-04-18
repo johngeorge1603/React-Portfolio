@@ -44,7 +44,7 @@ const App = () => {
         <Skills/>
       </section>
 
-      <section id='Portfolio'><Title type="Projects"/></section>
+      <section id='PortfolioPage'><Title type="Projects"/></section>
 
       <Portfolio />
 
