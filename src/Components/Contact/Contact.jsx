@@ -39,7 +39,7 @@ function Contact() {
           <motion.h1 initial={{opacity:0}} transition={{duration:1}} whileInView={{opacity:1}}>Get In Touch!</motion.h1>
           <br />
           <br />
-          <motion.div initial={{opacity:0}} transition={{duration:1,delay:0.7,staggerChildren:0.05}} whileInView={{opacity:1}}>
+          <motion.div className='align-items-center' initial={{opacity:0}} transition={{duration:1,delay:0.7,staggerChildren:0.05}} whileInView={{opacity:1}}>
             <h3>Mobile</h3>
             <p>+91 8921793203</p>
             <br />
@@ -60,8 +60,8 @@ function Contact() {
           </motion.div>
         </div>
 
-        <motion.div className='form' initial={{opacity:0}} transition={{duration:2,delay:1.6,staggerChildren:0.05}} whileInView={{opacity:1}}>
-          <form ref={formRef} onSubmit={sendEmail} action="#" method="post">
+        <motion.div className='form' initial={{opacity:0}} transition={{duration:2,delay:1.6,staggerChildren:0.05}} whileInView={{opacity:1}} >
+          {/* <form ref={formRef} onSubmit={sendEmail} action="#" method="post">
             <label htmlFor="name"><b>Name:</b></label><br />
             <input type="text" id="name" name="name" required /><br />
             <label htmlFor="email"><b>E-Mail:</b></label><br />
@@ -72,7 +72,9 @@ function Contact() {
             {error && " Error"}
             {success && " Success"}
           </form>
-          
+           */}
+
+           <motion.img src="/mes.png" alt="" width={'100%'} whileHover={{scale:1.1}}/>
         </motion.div>
         
       </div>
